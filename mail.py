@@ -5,6 +5,7 @@ import smtplib
 
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
+USER_NAME = ''
 GMAIL_USERNAME = 'ksparsewar1023@gmail.com'
 GMAIL_PASSWORD = 'kedar1023' #CAUTION: This is stored in plain text!
 
