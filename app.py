@@ -1,4 +1,4 @@
-    from flask import Flask,session
+from flask import Flask,session
 from first import First
 from alumni import Alumni
 from student import Student
@@ -29,7 +29,7 @@ def main():
 def signup():
     return render_template('sign.html')
 
-@app.route('/getcolleges',methods=['GET'])
+@app.route('/colleges',methods=['GET'])
 def getProducts():
     colleges=[]
     id=request.args['id']
