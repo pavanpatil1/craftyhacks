@@ -1,4 +1,4 @@
-    from flask import Flask,session
+from flask import Flask,session
 from first import First
 from alumni import Alumni
 from student import Student
