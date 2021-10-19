@@ -106,7 +106,7 @@ def addStudent():
     res=stud.addNewStudent(student)
 
     if (len(res)<0):
-        students.append("something went wrong ...student not added")
+        students.append("something went wrong .student not added")
     else:    
         students.append(res)
     
